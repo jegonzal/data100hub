@@ -19,6 +19,7 @@ RUN apt-get update && \
 		texlive-xetex \
 		texlive-fonts-recommended \
 		texlive-generic-recommended \
+		default-jdk \
 		;
 
 ENV LC_ALL en_US.UTF-8
